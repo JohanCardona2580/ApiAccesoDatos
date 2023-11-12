@@ -12,7 +12,8 @@
           "Microsoft.EntityFrameworkCore": "6.0.5",
           "Microsoft.EntityFrameworkCore.SqlServer": "6.0.5",
           "Microsoft.EntityFrameworkCore.Tools": "6.0.5",
-          "Swashbuckle.AspNetCore": "6.5.0"
+          "Swashbuckle.AspNetCore": "6.5.0",
+          "Swashbuckle.AspNetCore.SchemaBuilder": "1.6.0"
         },
         "runtime": {
           "ApiAccesoDatos.dll": {}
@@ -258,6 +259,29 @@
           "Swashbuckle.AspNetCore.Swagger": "6.5.0",
           "Swashbuckle.AspNetCore.SwaggerGen": "6.5.0",
           "Swashbuckle.AspNetCore.SwaggerUI": "6.5.0"
+        }
+      },
+      "Swashbuckle.AspNetCore.Annotations/5.4.1": {
+        "dependencies": {
+          "Swashbuckle.AspNetCore.SwaggerGen": "6.5.0"
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/Swashbuckle.AspNetCore.Annotations.dll": {
+            "assemblyVersion": "5.4.1.0",
+            "fileVersion": "5.4.1.0"
+          }
+        }
+      },
+      "Swashbuckle.AspNetCore.SchemaBuilder/1.6.0": {
+        "dependencies": {
+          "Swashbuckle.AspNetCore": "6.5.0",
+          "Swashbuckle.AspNetCore.Annotations": "5.4.1"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Swashbuckle.AspNetCore.SchemaBuilder.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "1.6.0.0"
+          }
         }
       },
       "Swashbuckle.AspNetCore.Swagger/6.5.0": {
@@ -623,6 +647,20 @@
       "sha512": "sha512-FK05XokgjgwlCI6wCT+D4/abtQkL1X1/B9Oas6uIwHFmYrIO9WUD5aLC9IzMs9GnHfUXOtXZ2S43gN1mhs5+aA==",
       "path": "swashbuckle.aspnetcore/6.5.0",
       "hashPath": "swashbuckle.aspnetcore.6.5.0.nupkg.sha512"
+    },
+    "Swashbuckle.AspNetCore.Annotations/5.4.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ThwQST7bqoe1HOglDl+zcphcddmZK1lFUFdXR7vaK06yTq7KJuM2+9zt9FM1EYRXFL6h8Pmj2M+C0kRuIkUwMQ==",
+      "path": "swashbuckle.aspnetcore.annotations/5.4.1",
+      "hashPath": "swashbuckle.aspnetcore.annotations.5.4.1.nupkg.sha512"
+    },
+    "Swashbuckle.AspNetCore.SchemaBuilder/1.6.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-jncGaebrb5N/xsllGjNZvw21siym3M83HDYKimPXl1JO+Z7mZSth9qaaliAf9Clro6v7O2ZfAeg5EqRMsInfFQ==",
+      "path": "swashbuckle.aspnetcore.schemabuilder/1.6.0",
+      "hashPath": "swashbuckle.aspnetcore.schemabuilder.1.6.0.nupkg.sha512"
     },
     "Swashbuckle.AspNetCore.Swagger/6.5.0": {
       "type": "package",
